@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover CBB BBQ in Montgomery, Alabama. Explore Southern barbecue favorites, comfort-food sides, and follow Facebook for food truck updates and locations.">
+    <meta name="theme-color" content="#FFD100">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CBB BBQ | Montgomery, Alabama">
+    <meta property="og:description"
+        content="Big barbecue flavor, Southern comfort, and CBB BBQ on the move in Montgomery, Alabama.">
+    <!-- Add the live preview URL and approved social-preview image before publishing. -->
+    <!-- <meta property="og:url" content="https://your-live-preview-url.example"> -->
+    <!-- <meta property="og:image" content="./assets/img/cbb-social-preview.jpg"> -->
+
+    <title>CBB BBQ | Southern BBQ in Montgomery, Alabama</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+
+    <link rel="icon" href="./assets/img/cbbBrandLogo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <!-- ==== Navigation ==== -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a class="brand-mark" href="#heroSection" aria-label="CBB BBQ home">
+                <!-- Replace with CBB BBQ's official logo file when available. -->
+                <span  aria-hidden="true"><img class="brand-mark-logo" src="./assets/img/cbbBrandLogo.png" alt="CBB BBQ brand logo"></span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-label="Open navigation"
+                aria-expanded="false" aria-controls="primaryNavigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="primary-navigation" id="primaryNavigation" aria-label="Main navigation">
+                <a href="#menuSection">The Menu</a>
+                <a href="#storySection">Our Flava</a>
+                <a href="#impressionMarqueeSection">Food Gallery</a>
+                <a href="#findUsSection">Find the Truck</a>
+                <a class="button button-nav" href="#findUsSection">Follow Our Route <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==== Hero Section ==== -->
+        <section id="heroSection">
+            <div class="hero-container">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-flame" aria-hidden="true">✦</span> MONTGOMERY, ALABAMA</p>
+                    <h1>REAL BBQ.<br><span>SOUTHERN SOUL.</span></h1>
+                    <p class="hero-description">From hearty barbecue plates to the sides that make a meal feel like home, CBB BBQ brings comfort-food flava to the streets of Montgomery.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#menuSection">Explore the Menu <span aria-hidden="true">↘</span></a>
+                        <a class="text-link" href="#findUsSection">Find the truck <span aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="hero-stamp" aria-label="Big flavor, Southern comfort, BBQ favorites">
+                        <span>BIG FLAVA</span><span class="stamp-star">✦</span><span>SOUTHERN COMFORT</span><span class="stamp-star">✦</span><span>BBQ FAVORITES</span>
+                    </div>
+                </div>
+
+                <div class="hero-art" aria-label="Barbecue food showcase">
+                    <div class="hero-image-frame">
+                        <!-- Temporary stock image for the concept. Replace with a CBB BBQ photo if preferred. -->
+                        <img src="./assets/img/bbqPieces.jpg"
+                             alt="Smoky barbecue ribs served with a savory glaze" fetchpriority="high">
+                    </div>
+                    <div class="hero-burst" aria-hidden="true">BBQ<br>DONE<br><span>RIGHT!</span></div>
+                    <div class="hero-side-note">GOOD EATS. NO SHORTCUTS.</div>
+                </div>
+                <div class="hero-bottom-note"><span class="note-line"></span> GOOD FOOD. GOOD PEOPLE. MONTGOMERY FLAVOR.</div>
+            </div>
+        </section>
+
+        <!-- ==== Flavor Marquee Section ==== -->
+        <section id="flavorMarqueeSection" aria-label="CBB BBQ flavor highlights">
+            <div class="flavor-marquee-track">
+                <div class="flavor-marquee-content">
+                    <span>SOUTHERN BBQ</span><span class="marquee-star">✦</span>
+                    <span>COMFORT ON A PLATE</span><span class="marquee-star">✦</span>
+                    <span>MONTGOMERY, AL</span><span class="marquee-star">✦</span>
+                    <span>COME HUNGRY</span><span class="marquee-star">✦</span>
+                </div>
+                <div class="flavor-marquee-content" aria-hidden="true">
+                    <span>SOUTHERN BBQ</span><span class="marquee-star">✦</span>
+                    <span>COMFORT ON A PLATE</span><span class="marquee-star">✦</span>
+                    <span>MONTGOMERY, AL</span><span class="marquee-star">✦</span>
+                    <span>COME HUNGRY</span><span class="marquee-star">✦</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Menu / Food Carousel Section ==== -->
+        <section id="menuSection">
+            <div class="menu-container">
+                <div class="section-heading menu-heading">
+                    <div>
+                        <p class="eyebrow"><span class="eyebrow-flame" aria-hidden="true">✦</span> THE LINEUP</p>
+                        <h2>COME FOR THE BBQ.<br><span>STAY FOR THE SIDES.</span></h2>
+                    </div>
+                    <p class="section-intro">A taste of the comfort-food favorites associated with CBB BBQ. Menu availability may vary by day or event.</p>
+                </div>
+
+                <div class="menu-carousel">
+                    <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous menu items">←</button>
+                    <div class="menu-carousel-window">
+                        <div class="menu-carousel-track">
+                            <article class="menu-card">
+                                <div class="menu-card-image">
+                                    <img src="./assets/img/bbqMac.jpg" alt="Boneless BBQ bites with Mac & Cheese" loading="lazy">
+                                    <span class="menu-card-number">01</span>
+                                </div>
+                                <div class="menu-card-copy"><p class="card-kicker">BBQ FAVORITE</p><h3>Pulled Pork & Ribs, with Mac & Cheese</h3><p>Smoky, savory barbecue comfort, with Southern-style Mac & Cheese. Confirm the day's selection with CBB BBQ.</p></div>
+                            </article>
+                            <article class="menu-card">
+                                <div class="menu-card-image">
+                                    <img src="./assets/img/bbqYammyRice.jpg" alt="Seasoned chicken prepared for a hearty meal" loading="lazy">
+                                    <span class="menu-card-number">02</span>
+                                </div>
+                                <div class="menu-card-copy"><p class="card-kicker">SOUTHERN CLASSIC</p><h3>Pulled Pork with Yams and Seasoned Rice</h3><p>Hearty plate options for when a snack simply will not do.</p></div>
+                            </article>
+                            <article class="menu-card">
+                                <div class="menu-card-image">
+                                    <img src="./assets/img/bbqWings.jpg" alt="Comforting fried chicken dish served warm" loading="lazy">
+                                    <span class="menu-card-number">03</span>
+                                </div>
+                                <div class="menu-card-copy"><p class="card-kicker">SOUL FOOD</p><h3>Fried Wings with Baked Beans and Mac</h3><p>A rich, satisfying plate with crunchy fried chicken, and the kind of comfort that sticks with you.</p></div>
+                            </article>
+                            <article class="menu-card">
+                                <div class="menu-card-image">
+                                    <img src="./assets/img/bbqCabbage.jpg" alt="Colorful side dishes served family style" loading="lazy">
+                                    <span class="menu-card-number">04</span>
+                                </div>
+                                <div class="menu-card-copy"><p class="card-kicker">THE SIDEKICKS</p><h3>Cabbage & Baked Beans</h3><p>Classic sides that help turn a good plate into a full Southern spread.</p></div>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="carousel-arrow carousel-next" type="button" aria-label="Next menu items">→</button>
+                </div>
+                <div class="carousel-footer">
+                    <span class="carousel-status">01 <span>/</span> 06</span>
+                    <div class="carousel-progress" aria-hidden="true"><span></span></div>
+                    <a class="text-link" href="#findUsSection">Check today's updates <span aria-hidden="true">↗</span></a>
+                </div>
+                <p class="menu-disclaimer">Menu preview only. Specific items, availability, prices, and descriptions should be confirmed by CBB BBQ before launch.</p>
+            </div>
+        </section>
+
+        <!-- ==== Story / Brand Section ==== -->
+        <section id="storySection">
+            <div class="story-container">
+                <div class="story-image-wrap">
+                    <!-- Temporary stock image; replace with an approved photo from CBB BBQ's Facebook page. -->
+                    <img src="./assets/img/foodtruckEvent.jpg" alt="Barbecue meal prepared for sharing" loading="lazy">
+                    <span class="story-image-label">MADE FOR THE TABLE</span>
+                </div>
+                <div class="story-copy">
+                    <p class="eyebrow"><span class="eyebrow-flame" aria-hidden="true">✦</span>Latest Event</p>
+                    <h2>GOOD FOOD.<br><span>GOOD MOOD.</span></h2>
+                    <p>Some meals are just fuel. The good ones bring people together, fill the table, and make you consider loosening your belt one notch.</p>
+                    <p>CBB BBQ brings barbecue and comfort-food favorites to Montgomery, Alabama. Since a food truck can be on the move, follow its Facebook page for the latest updates before heading out.</p>
+                    <a class="button button-dark" href="https://www.facebook.com/profile.php?id=61580256716660&sk=photos">Follow CBB BBQ <span aria-hidden="true">↗</span></a>
+                    <div class="story-doodle" aria-hidden="true">SO<br>GOOD!</div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ==== Food Truck Updates Section ==== -->
+        <section id="findUsSection">
+            <div class="visit-container">
+                <div class="visit-copy">
+                    <p class="eyebrow"><span class="eyebrow-flame" aria-hidden="true">✦</span> CATCH US AROUND TOWN</p>
+                    <h2>THE TRUCK<br><span>IS ON THE MOVE.</span></h2>
+                    <p>Food trucks don't always stay in one place. Before you make the trip, check CBB BBQ's Facebook page for current locations, appearances, and updates.</p>
+                    <div class="visit-details">
+                        <div class="visit-detail">
+                            <span class="detail-icon" aria-hidden="true">⌖</span>
+                            <div><strong>HOME BASE</strong><span>Montgomery, Alabama</span></div>
+                        </div>
+                        <div class="visit-detail">
+                            <span class="detail-icon" aria-hidden="true">◷</span>
+                            <div><strong>HOURS & APPEARANCES</strong><span>Check Facebook for the latest updates</span></div>
+                        </div>
+                    </div>
+                    <div class="visit-actions">
+                        <!-- TODO: Replace with the official CBB BBQ Facebook page URL. -->
+                        <a class="button button-primary" href="https://www.facebook.com/profile.php?id=61580256716660&sk=photos">Find Us on Facebook <span aria-hidden="true">↗</span></a>
+                        <span class="visit-note">No fixed address listed in this demo.</span>
+                    </div>
+                </div>
+                <div class="visit-map-card">
+                    <div class="map-card-art">
+                        <div class="map-grid" aria-hidden="true"></div>
+                        <div class="map-pin" aria-hidden="true">⌖</div>
+                        <div class="map-card-label"><span class="map-pulse"></span> FOLLOW THE FLAVA</div>
+                        <div class="map-card-city">MONTGOMERY<br><span>ALABAMA</span></div>
+                    </div>
+                    <div class="map-card-copy">
+                        <p class="card-kicker">YOUR NEXT BBQ STOP</p>
+                        <h3>Find the latest location.</h3>
+                        <p>Check the official page before heading out so you can find the truck where it's serving.</p>
+                        <a class="text-link" href="https://www.facebook.com/profile.php?id=61580256716660&sk=photos">Check Facebook updates <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Order / Contact CTA Section ==== -->
+        <section id="orderSection">
+            <div class="order-container">
+                <p class="eyebrow"><span class="eyebrow-flame" aria-hidden="true">✦</span> GOT A BBQ CRAVING?</p>
+                <h2>DON'T JUST<br><span>THINK ABOUT IT.</span></h2>
+                <p>Keep up with CBB BBQ's latest plates, appearances, and announcements on Facebook.</p>
+                <a class="button button-dark" href="https://www.facebook.com/profile.php?id=61580256716660&sk=photos">Follow the flava <span aria-hidden="true">↗</span></a>
+                <div class="order-spark" aria-hidden="true">✳</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==== Footer ==== -->
+    <footer id="footerSection">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a class="brand-mark footer-brand-mark" href="#heroSection" aria-label="CBB BBQ home">
+                        <span  aria-hidden="true"><img class="brand-mark-logo" src="./assets/img/cbbBrandLogo.png" alt="Brand Logo of CBB BBQ"></span>
+                    </a>
+                    <p>Southern barbecue and comfort-food favorites around Montgomery, Alabama.</p>
+                    <span class="footer-location-tag">MONTGOMERY, ALABAMA</span>
+                </div>
+                <div class="footer-nav-group">
+                    <h3>EXPLORE</h3>
+                    <a href="#heroSection">Home</a>
+                    <a href="#menuSection">The Menu</a>
+                    <a href="#storySection">Our flava</a>
+                    <a href="#impressionMarqueeSection">Food Gallery</a>
+                    <a href="#findUsSection">Find the Truck</a>
+                </div>
+                <div class="footer-nav-group">
+                    <h3>GOOD TO KNOW</h3>
+                    <a href="#findUsSection">Locations & Updates</a>
+                    <a href="#findUsSection">Hours & Appearances</a>
+                    <a href="https://www.facebook.com/profile.php?id=61580256716660&sk=photos">Facebook Page</a>
+                    <a href="#termsNotice" data-policy-link="terms">Terms & Conditions</a>
+                    <a href="#privacyNotice" data-policy-link="privacy">Privacy Policy</a>
+                </div>
+                <div class="footer-contact">
+                    <p class="eyebrow">FOLLOW THE FLAVA</p>
+                    <h2>STAY<br><span>IN THE KNOW.</span></h2>
+                    <p>See the latest plates, truck appearances, and updates.</p>
+                    <!-- TODO: Replace href with CBB BBQ's verified Facebook page URL. -->
+                    <a class="footer-social-link" id="facebookLink" href="https://www.facebook.com/profile.php?id=61580256716660&sk=photos" target="_blank" rel="noopener noreferrer">Visit us on Facebook <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="currentYear">2026</span> CBB BBQ. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#termsNotice" data-policy-link="terms">Terms & Conditions</a>
+                    <a href="#privacyNotice" data-policy-link="privacy">Privacy Policy</a>
+                </div>
+                <a class="back-to-top" href="#heroSection">Back to top ↑</a>
+            </div>
+
+            <p class="footer-demo-note" id="termsNotice">Website concept preview. Menu availability, prices, photos, hours, locations, social links, and business details must be confirmed by CBB BBQ. Terms & Conditions are a placeholder and must be replaced with approved terms before launch.</p>
+            <p class="footer-demo-note" id="privacyNotice">Privacy Policy placeholder: this demo does not include a contact form or collect information directly. A complete policy should be added before introducing analytics, forms, or other data collection.</p>
+        </div>
+    </footer>
+</body>
+</html>
